@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Side-by-Side Layout</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#cta">Call to Action</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="side-by-side">
+        <div class="left-side">
+            <h2>The future of web design, today</h2>
+            <h3>The future of web design, today</h3>
+            <button class="simple-button" onclick="redirectToGoogle()">Health</button>
+        </div>
+        <div class="right-side">
+            <img src="1.jpg" alt="Description of image">
+        </div>
+    </section>
+
+    <div class="cta-banner">
+        <div class="cta-text">
+            <h2>Don’t forget to grab this one, it’s free!</h2>
+            <p>Download the Ultimate con tomate guide.</p>
+        </div>
+        <a href="https://www.google.com/search?q=tree+health+center" class="cta-button">Call to action</a>
+    </div>
+
+    <section class="side-by-side">
+        <div class="left-side">
+            <h1>What we do</h1>
+            <p>Our mission is very important to the planet: we plant as many trees as possible.</p>
+            <p>Can you figure out?</p>
+        </div>
+        <div class="right-side">
+            <ul>
+                <li>We recycle everything we see</li>
+                <li>We teach people how to reuse their stuff</li>
+                <li>We believe in human beings as problem solvers</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="my-work">
+        <h1>My work</h1>
+        <div class="work-gallery">
+            <div class="work-item">     
+                <img src="2.jpeg" alt="Work Image 1">
+                <div class="overlay">
+                    <div class="text">Youtube website<br>This Website was watching videos, any ads, and you are safe to video in mobile phone to download free.</div>
+                </div>
+            </div>
+            <div class="work-item">
+                <img src="3.gif" alt="Work Image 2">
+                <div class="overlay">
+                    <div class="text">Description of work 2</div>
+                </div>
+            </div>
+            <div class="work-item">
+                <img src="4.webp" alt="Work Image 3">
+                <div class="overlay">
+                    <div class="text">Description of work 3</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Your Company Name. All rights reserved.</p>
+            <ul>
+                <li><a href="#privacy">Privacy Policy</a></li>
+                <li><a href="#terms">Terms of Service</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script>
+        function redirectToGoogle() {
+            window.location.href = "https://www.google.com/search?q=tree+health+center";
+        }
+    </script>
+</body>
+</html>
